@@ -1,0 +1,39 @@
+.message{
+  .list{
+    height: 100vh;
+    margin-bottom: -105px;
+    background-color: #f0f0f0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    >ul{
+      margin-bottom: 105px;
+    }
+    li{
+      height: 50px;
+      padding: 13px 17px;
+      position: relative;
+      background-color: white;
+      border-bottom: 1px solid #dcdcdc;
+      text-align: left;
+      .ico{
+        float: left;
+        margin-right: 8px;
+        img{
+          width: 50px;
+        }
+      }
+      .title{
+        margin-top: 2px;
+        display: inline-block;
+        width: 50%;
+        min-width: 200px;
+        color: #333;
+      }
+      .subtitle{
+        margin-top: 5px;
+        color: #757575;
+      }
+    }
+  }
+}

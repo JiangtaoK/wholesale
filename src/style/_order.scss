@@ -1,0 +1,71 @@
+.order{
+  .search{
+    .search{
+      display: inline-block;
+      width: 70%;
+      text-align: left;
+      color: #757575;
+
+    }
+    .fr{
+      padding: 0 20px;
+      font-size: 1.2em;
+      img{
+        margin: -2px 2px;
+        width: 14px;
+      }
+    }
+  }
+  .list{
+    height: 100vh;
+    margin-bottom: -155px;
+    background-color: #f0f0f0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    >ul{
+      margin-bottom: 155px;
+    }
+    li{
+      height: 156px;
+      padding: 0 16px;
+      position: relative;
+      background-color: white;
+      >p{
+        height: 24px;
+        line-height: 24px;
+        color: #757575;
+        text-align: left;
+        span{
+          margin-right:  10px;
+        }
+        &:first-child{
+          border-bottom: 1px solid #f0f0f0;
+          font-size: 1.2em;
+          height: 50px;
+          line-height: 50px;
+        }
+        &:last-child{
+          margin: 0 -16px;
+          height: 20px;
+          background: url('./assets/order-bg.png') 0 0 repeat-x #f0f0f0
+        }
+      }
+      .space{
+        height: 10px;
+      }
+      .pay{
+        color: $style;
+        position: absolute;
+        border: 1px solid $style;
+        display: inline-block;
+        bottom: 35px;
+        height: 20px;
+        font-size: 1.2em;
+        padding: 5px 10px;
+        line-height: 20px;
+        right: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-size: 0.85rem;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.style{
+  color: #ff6645;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+$style: #ff6645;
+
+@import "./style.scss";
+@import "./_login.scss";
+@import "./_home.scss";
+@import "./_all.scss";
+@import "./_order.scss";
+@import "./_message.scss";
+@import "./_me.scss";

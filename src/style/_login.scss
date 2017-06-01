@@ -1,0 +1,39 @@
+
+.login-area{
+  width: 96%;
+  margin: 0 auto;
+  .logo{
+    background: url("./assets/logo.png")  50% 50% no-repeat;
+    margin: 10vh auto;
+    height: 100px;
+    width: 200px;
+  }
+  ul{
+    width: 80%;
+    margin: 10vh auto 0 auto;
+    list-style: none;
+    li{
+      min-height: 30px;
+      .mint-cell{
+        background: none;
+      }
+      .mint-field{
+        margin-top: 26px;
+        .mint-cell-wrapper{
+          border: 0;
+          height: 50px;
+          background: none;
+          .mint-cell-value{
+            background: white;
+            padding-right: 8px;
+            border: 1px #d9d9d9 solid;
+            input{
+              height: 46px;
+              text-indent: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <title>招募会员</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: MicrosoftYaHei,'Avenir', Helvetica, Arial, sans-serif;
+    }
+    .bg{
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    div{
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+    div img{
+      /*width: 50%;*/
+    }
+    .join{
+      margin: 120vw auto 0 auto;
+      display: block;
+    }
+    ul{
+      margin: 0 auto;
+      width: 70%;
+      letter-spacing: 3px;
+      list-style: none;
+    }
+    .title{
+      font-family: PingFang-SC-Medium,'Avenir', Helvetica, Arial, sans-serif;
+      font-size: 38px;
+      line-height: 38px;
+      color: #ff0000;
+      text-align: center;
+      margin: 25px auto 20px auto;
+    }
+    .subtitle{
+      font-size: 35px;
+      line-height: 35px;
+      color: #200d01;
+      text-align: center;
+      text-indent: -26px;
+    }
+    .content{
+      font-size: 26px;
+      color: #7c0c0c;
+      line-height: 42px;
+      margin: 36px 0 0 0;
+    }
+    span{
+      color: #ff3000;
+    }
+  </style>
+</head>
+<body>
+<img class="bg" src="./depend/bg.png" alt=""/>
+<div>
+  <img onclick="go()"  class="join" src="./depend/我要参加.png" alt=""/>
+  <ul>
+    <li class="title">价格：1888元</li>
+    <li class="subtitle">初始会员特权</li>
+    <li class="content">
+      <p>1、全年12次标准套餐，或每次不超过200元的任意餐品，<span>免费</span></p>
+      <p>2、全年任意时间入园，<span>免费</span></p>
+      <p>3、全年内，每次离园带走任意5斤的新鲜时蔬，<span>免费</span></p>
+      <p>4、全年使用烧烤场地及烤架，<span>免费</span></p>
+      <p>5、初始会员身份，<span>终身有效</span></p>
+      <p>6、农场推出的所有新项目、新设备，均有优先使用权、选购全，<span>八折</span></p>
+    </li>
+  </ul>
+</div>
+<script>
+  function go(){
+    console.info('go');
+  }
+</script>
+
+</body>
+</html>

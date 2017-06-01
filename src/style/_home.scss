@@ -1,0 +1,44 @@
+
+.mint-tabbar {
+  > .mint-tab-item.is-selected {
+    color: $style;
+  }
+}
+
+.header {
+  background-color: $style;
+  height: 50px;
+  line-height: 50px;
+  span{
+    display: inline-block;
+    margin: 0 5px;
+    width: 10%;
+    height: 50px;
+  }
+  .search{
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    display: inline-block;
+    border-radius: 0.5em;
+    background-color: #f0583e;
+    color: rgba(255,255,255,.6);
+    img{
+      width: 14px;
+      height: 14px;
+      margin: -2px 5px;
+    }
+  }
+  .cart {
+    background: url('./assets/topbar_cart.png') 50% 55% no-repeat;
+  }
+  .title{
+    width: 70%;
+    font-size: 1.3em;
+    color: white;
+  }
+}
+.mint-tabbar > .mint-tab-item.is-selected{
+  background-color: #fafafa;
+}
